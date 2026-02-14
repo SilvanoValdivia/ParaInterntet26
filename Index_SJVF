@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silvano's Super Blog</title>
+  <link rel="stylesheet" href="style_SJVF.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <h1>Silvano's Super Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="#personal-info">Personal Info</a></li>
+        <li><a href="#personal-interests">Personal Interests</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Personal Info Section -->
+  <section id="personal-info">
+    <h2>About Me</h2>
+    <article>
+      <h3>My Academic Journey</h3>
+      <p>I officially started my formal university grade studies during the tail end of 2023 it has been almost three years of study since then, and thanks to them I have been able to peer behind the courtain and realize computer sciences are much more complex than I initially imagined</p>
+    </article>
+    <article>
+      <h3>Future Goals</h3>
+      <p>I aim to graduate succesfully and earn my diploma, once that is done I wish to use my newly acquired knowledge in a way that will both help others and also bring me the satisfaction of a job well done.</p>
+    </article>
+  </section>
+
+  <!-- Personal Interests Section -->
+  <section id="personal-interests">
+    <h2>My Hobbies & Passions</h2>
+    <article>
+      <h3>My Favorite Book</h3>
+      <p>Oddly enough, the “Dungeon Meshi” series by Ryōko Kui it touches all my peculiar hyperfixations, while delivering a good message on the importance of rest and self-care.</p>
+    </article>
+    <article>
+      <h3>Why I Love D&D</h3>
+      <p> It allows me to disconnect from reality and immerse into fantasy. The idea of  having an entire world of my own, where imagination can spread its wings, makes me giddy without fail.</p>
+    </article>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <article>
+      <h3>Contact Form</h3>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </article>
+    <article>
+      <h3>Other Ways to Connect</h3>
+      <ul>
+        <li>Email: silvano.valdivia9295@alumnos.udg.mx</li>
+        <li>LinkedIn: linkedin.com/in/SILVANO JOSET VALDIVIA FRANCO</li>
+	<li>GitHub: github.com/SilvanoValdivia</li>
+      </ul>
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Silvano's Super Blog</p>
+  </footer>
+</body>
+</html>
